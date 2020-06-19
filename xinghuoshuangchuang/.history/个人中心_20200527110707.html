@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="fav1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/gerenzhongxin.css">
+</head>
+
+<body>
+    <div class="tianliang_layout">
+        <!-- 头部 -->
+        <header>
+            <aside class="pull-left nav_left">
+                <img src="images/logo.png" alt="">
+            </aside>
+            <aside class="pull-right nav_right">
+                <ul>
+                    <li><a href="#"><span class="nav_active nav_active1">新闻动态</span></a></li>
+                    <li><a href="#"><span class="nav_active">大赛报名</span></a></li>
+                    <li><a href="http://bbs.myhope365.com/"><span class="nav_active">天亮社区</span></a></li>
+                    <li><a href="#"><span class="nav_active">关于我们</span></a></li>
+                    <button type="button" class="btn btn-success">登录</button>
+                </ul>
+            </aside>
+        </header>
+        <!-- 中间主体 -->
+        <main>
+            <div class="mainContent clearfix">
+                <div class="mainContentList clearfix">
+                    <ul>
+                        <li class="select">
+                            <a><img src="images/heart.png" />&nbsp;&nbsp;基本信息</a>
+                        </li>
+                        <li class="compInfo">
+                            <a><img src="images/info1.png" />&nbsp;&nbsp;参赛信息</a>
+                        </li>
+                    </ul>
+                    <!-- <div class="baseInfo"></div>
+                    <div class="compInfo"></div> -->
+                </div>
+                <div class="mainContentInfo">
+                    <div>
+                        <div class="box1">
+                            <div class="baseInfo">
+                                <p style="font-size: 22px; margin-bottom: 30px; color: #515a65;">
+                                    基本信息
+                                </p>
+                                <div class="contentInfo">
+                                    <form action="">
+                                        <label for="name"> 用户名:</label>
+                                        <input type="text" disabled value="11111" id="name"
+                                            style="background-color: #f3f3f3; color: #ccc;" required><br>
+                                        <label for="class"> 账户类别:</label>
+                                        <input type="text" disabled value="11111" id="class"
+                                            style="background-color: #f3f3f3; color: #ccc;" required><br>
+                                        <label for="phone"> 手机号:</label>
+                                        <input type="text" disabled value="11111" id="phone"
+                                            style="background-color: #f3f3f3; color: #ccc;" required
+                                            pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$"><br>
+                                        <label for="namel"> 姓名:</label>
+                                        <input type="text" value="" id="name1"
+                                            style="background-color: #fff; color: #111;" required
+                                            placeholder="请输入姓名"><br>
+                                        <label for="number"> 身份证号:</label>
+                                        <input type="text" value="" id="number"
+                                            style="background-color: #fff; color: #111;" required placeholder="请输入身份证号"
+                                            pattern="\d{15}|\d{18}"><br>
+                                        <label for="email"> 邮箱:</label>
+                                        <input type="email" value="" id="email"
+                                            style="background-color: #fff; color: #111;" required
+                                            placeholder="请输入邮箱"><br>
+                                        <label for="school">学校:</label>
+                                        <input type="text" value="" id="school"
+                                            style="background-color: #fff; color: #111;" required
+                                            placeholder="请输入参赛学校"><br>
+                                        <label for="professional"> 专业:</label>
+                                        <input type="text" value="" id="professional"
+                                            style="background-color: #fff; color: #111;" required
+                                            placeholder="请输入专业"><br>
+                                        <label for="grade"> 年级:</label>
+                                        <input type="text" value="" id="grade"
+                                            style="background-color: #fff; color: #111;" required
+                                            placeholder="请输入年级"><br>
+                                        <button style="margin-left: 100px;">更新信息</button>
+                                        <button style="margin-left: 30px;">退出登录</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box1 box2">
+                            <!-- <p>暂无参赛信息</p> -->
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <!-- 底部 -->
+        <footer>
+            <!-- 文字 -->
+            <div class="footText clearfix">
+                <div>
+                    <ul>
+                        <li><a href="#">友情链接：</a></li>
+                        <li><a href="#">天亮公开课资源</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                    </ul>
+                    <div class="box1">copyright@版权所有 天亮教育 网站标识码：23667788978 备案编号：冀ICP备2356645765765</div>
+                    <div class="box2"> 电子邮箱：623143506@qq.com 技术支持：河北尚云信息科技有限公司</div>
+                </div>
+            </div>
+            <!-- 微信公众号 -->
+            <div class="wxgzh">
+                <img src="images/微信公众号.jpg" alt="">
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="lib/jquery/jquery-3.4.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $("li").click(function () {
+        //   console.log(11111);
+        $(this).addClass("select").siblings().removeClass("select");
+          $(".box6").eq($(this).index()).show().siblings().hide();
+    });
+</script>
+
+</html>

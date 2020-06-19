@@ -1,0 +1,207 @@
+.tianliang_layout {
+    max-width: 100%;
+    min-width: 1800px;
+    margin: 0 auto;
+    position: relative;
+    height:auto;
+    /* border: 1px solid red; */
+}
+
+/* 背景图 */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../images/创新创业大赛.jpg) center center no-repeat;
+}
+/*  主体部分*/
+main {
+    width: 85%;
+    height: 1500px;
+    background-color: wheat;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+main .img1 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80px;
+    /* background-color: rgb(red, green, blue); */
+    background: url(../images/2.jpg) no-repeat ;
+}
+.mainContent {
+    box-sizing: border-box;
+    width: 80%;
+    /* height: 800px; */
+    /* background-color: saddlebrown; */
+    margin-left: 20%;
+    color: #101010;
+    font-family: SourceHanSansSC-regular;
+}
+/* 我要报名 */
+.mid .midBox3 {
+    width: 1050px;
+    margin: 0 auto;
+    display: none;
+    padding: 0 15px;
+    font-size: 14px;
+    /* text-align: center; */
+}
+.midBox3 span{
+    cursor: pointer;
+    color: #2d8cf0;
+}
+.midBox3 > h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+.midBox3 h5 {
+    background-color: #b8b5c2;
+    text-indent: 2em;
+    margin: 20px 0 10px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.midBox3 .name {
+    text-indent: 2em;
+
+}
+.midBox3 .information {
+    width: 50%;
+}
+
+.midBox3 .information .shift {
+    width: 200px;
+    height: 32px;
+    display: inline-block;
+    color: #515a6e;
+    line-height: 30px;
+    padding-left: 8px;
+    padding-right: 24px;
+    font-size: 12px;
+    border: 1px solid #dcdee2;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.midBox3 .information .shift:hover{
+    cursor: pointer;
+    border: 1px solid #2d8cf0;
+}
+.midBox3 .xd {
+    margin-left: -14px;
+    height: 64px;
+    width: 1100px;
+}
+.midBox3 .jz {
+    margin-left: -27px;
+    height: 64px;
+    width: 1100px;
+}
+.midBox3 .jj {
+    height: 200px;
+    width: 1100px;
+}
+
+.ivu-input {
+    display: inline-block;
+    width: 200px;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 12px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #515a6e;
+    background-color: #fff;
+    background-image: none;
+    position: relative;
+    cursor: text;
+}
+.midBox3 select {
+    width: 200px;
+    height: 32px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+}
+.bmBox1 {
+    padding: 0 30px;
+    margin: 30px 0;
+}
+.bmBox1 span {
+    color: #333;
+}
+.bmBox1 .select {
+    margin-left: 3px;
+    width: 840px;
+    height: 64px;
+    border: 1px solid #dcdee2;
+
+}
+.bmBox1 .select input {
+    margin: 18px auto 0;
+}
+textarea {
+    resize: none;
+    height: 100%;
+    width: calc(100% - 200px);
+    vertical-align: top;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+
+.margin-dh {
+    margin-left: -28px;
+}
+
+
+.resetBox {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.resetBox button {
+  
+    outline: none;
+    border: 1px solid #dcdee2;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 15px 6px;
+    color: #515a6e;
+    line-height: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+}
+.resetBox .reset {
+    margin-right: 20px;
+}
+.resetBox .reset:hover{
+    color: #57a3f3;
+    background-color: #fff;
+    border-color: #57a3f3;
+}
+
+.resetBox .submit {
+    color: #fff;
+    background-color: #2d8cf0;
+    border-color: #2d8cf0;
+    margin-left: 20px;
+    margin-right: 90px;
+}
+
+.resetBox .submit:hover{
+    opacity: 0.6;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="fav1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/zhuce.css">
+</head>
+
+<body>
+    <div class="tianliang_layout">
+        <!-- 头部 -->
+        <header>
+            <aside class="pull-left nav_left">
+                <img src="images/logo.png" alt="">
+            </aside>
+            <aside class="pull-right nav_right">
+                <ul>
+                    <li><a href="首页.html" target="_blank"><span class="nav_active nav_active1">新闻动态</span></a></li>
+                    <li><a href="大赛报名.html" target="_blank"><span class="nav_active">大赛报名</span></a></li>
+                    <li><a href="http://bbs.myhope365.com/" target="_blank"><span class="nav_active">天亮社区</span></a></li>
+                    <li><a href="关于我们.html" target="_blank"><span class="nav_active">关于我们</span></a></li>
+                    <a href="登录界面.html" class="btn btn-default btn-md btn-success" role="button" style="font-size: 12px;color: wheat;">登录</a>
+                </ul>
+            </aside>
+        </header>
+        <!--  -->
+        <div class="box">
+            <div class="box1">
+                <div class="box1_top clearfix">
+                    <div class="one select"><a href="#">大学生</a></div> 
+                    <div class="one"><a>老师</a></div>
+                    <div class="one"><a>企业注册</a></div>
+                </div>
+                <div class="box1_bottom clearfix">
+                    <form>
+                        <div>
+                            <img src="images/头像.png" alt="">
+                            <input type="text" placeholder="请输入用户名(4-20位,禁止特殊符号)" id="loginName" pattern="/^[a-zA-Z0-9_-]{4,16}$/" required>
+                        </div>
+                        <div>
+                            <img src="images/密码.png" alt="">
+                            <input type="password" placeholder="请输入密码(4-20位)" id="password" pattern="/^.*(?=.{6,})(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*? ]).*$/" required>
+                        </div>
+                        <div>
+                            <img src="images/密码.png" alt="">
+                            <input type="password" placeholder="请确认密码(重新输入上面密码)" id="password2" pattern="/^.*(?=.{6,})(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*? ]).*$/" required>
+                        </div>
+                        <div>
+                            <img src="images/头像.png" alt="">
+                            <input type="text" placeholder="(请输入真实姓名)" pattern="^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$"   id="userName" required> 
+                        </div>
+                        <div>
+                            <img src="images/头像.png" alt="">
+                            <input type="text" placeholder="(请输入身份证)"  pattern="\d{15}|\d{18}" required id="idNumber">
+                        </div>
+                        <div>
+                            <img src="images/邮箱.png" alt="">
+                            <input type="email" placeholder="请输入邮箱" id="email" required>
+                        </div>
+                        <div>
+                            <img src="images/学校.png" alt="">
+                            <input type="text" placeholder="请输入学校" id="school">
+                        </div>
+                        <div>
+                            <img src="images/学校.png" alt="">
+                            <input type="text" placeholder="请输入专业" id="profession">
+                        </div>
+                        <div>
+                            <img src="images/学校.png" alt="">
+                            <input type="text" placeholder="请输入年级"  id="grade">
+                        </div>
+                        <div>
+                            <img src="images/手机.png" alt="">
+                            <input type="text" placeholder="请输入手机号" pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$" id="phonenumber" id="code" required>
+                        </div>
+                        <div class="formBox2">
+                            <img src="images/手机.png" alt="">
+                            <input type="text" placeholder="请输入验证码" required pattern="^\+?[1-9][0-9]*$">
+                            <button id="btnVerification">获取验证码</button>
+                        </div>
+                        <div class="registerBox">
+                            <button id="btnRegister">注册</button>
+                        </div>
+                    </form>
+                    <!-- <div>
+                        <a href="#">登录</a>
+                    </div> -->
+                    <form style="display: none;">
+                        <div>
+                            <img src="images/头像.png" alt="">
+                            <label for=""></label>
+                            <input type="text" placeholder="请输入用户名(4-20位,禁止特殊符号)" pattern="/^[a-zA-Z0-9_-]{4,16}$/">
+                        </div>
+                        <div>
+                            <img src="images/密码.png" alt="">
+                            <input type="password" placeholder="请输入密码(4-20位)">
+                        </div>
+                        <div>
+                            <img src="images/密码.png" alt="">
+                            <input type="password" placeholder="请确认密码(重新输入上面密码)">
+                        </div>
+                        <div>
+                            <img src="images/头像.png" alt="">
+                            <input type="text" placeholder="请输入真实姓名" pattern="^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$">
+                        </div>
+                        <div>
+                            <img src="images/头像.png" alt="">
+                            <input type="text" placeholder="(请输入身份证)"  pattern="\d{15}|\d{18}">
+                        </div>
+                        <div>
+                            <img src="images/邮箱.png" alt="">
+                            <input type="email" placeholder="请输入邮箱">
+                        </div>
+                        <div>
+                            <img src="images/学校.png" alt="">
+                            <input type="text" placeholder="请输入学校">
+                        </div>
+                        <div>
+                            <img src="images/学校.png" alt="">
+                            <input type="text" placeholder="请输入研究方向">
+                        </div>
+                        <div>
+                            <img src="images/学校.png" alt="">
+                            <input type="text" placeholder="请输入年级">
+                        </div>
+                        <div>
+                            <img src="images/手机.png" alt="">
+                            <input type="text" placeholder="请输入手机号" pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$">
+                        </div>
+                        <div class="formBox2">
+                            <img src="images/手机.png" alt="">
+                            <input type="text" id="verification" placeholder="请输入验证码">
+                            <button type="button" id="verification1">获取验证码</button>
+                        </div>
+                        <div class="registerBox">
+                            <button type="button" >注册</button>
+                        </div>
+                    </form>
+                    <div>
+                        <a href="登录界面.html">登录</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 底部 -->
+        <footer>
+            <!-- 文字 -->
+            <div class="footText clearfix">
+                <div>
+                    <ul>
+                        <li><a href="#">友情链接：</a></li>
+                        <li><a href="#">天亮公开课资源</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                        <li><a href="#">尚云科技</a></li>
+                    </ul>
+                    <div class="box1">copyright@版权所有 天亮教育 网站标识码：23667788978 备案编号：冀ICP备2356645765765</div>
+                    <div class="box2"> 电子邮箱：623143506@qq.com 技术支持：河北尚云信息科技有限公司</div>
+                </div>
+            </div>
+            <!-- 微信公众号 -->
+            <div class="wxgzh">
+                <img src="images/微信公众号.jpg" alt="">
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="lib/jquery/jquery-3.4.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(".one").click(function () {
+        $(this).addClass("select").siblings("div").removeClass("select");
+        $(".box1_bottom form").eq($(this).index()).show().siblings("form").hide();
+    })
+</script>
+<script src="js/zhuce.js"></script>
+
+</html>

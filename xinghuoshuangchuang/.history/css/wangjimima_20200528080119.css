@@ -1,0 +1,16 @@
+.tianliang_layout {
+    max-width: 100%;
+    min-width: 1800px;
+    margin: 0 auto;
+    position: relative;
+    height:auto;
+    /* border: 1px solid red; */
+}
+.box {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: url(../images/background.jpg);
+    background-position: 50%;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }

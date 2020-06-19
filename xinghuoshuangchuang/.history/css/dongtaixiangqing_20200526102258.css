@@ -1,0 +1,26 @@
+.tianliang_layout {
+    max-width: 100%;
+    min-width: 1800px;
+    margin: 0 auto;
+    position: relative;
+    height:auto;
+    /* border: 1px solid red; */
+}
+main {
+    width: 60%;
+    height: 500px;
+    /* background-color: wheat; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+main h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+main span p{
+    text-align: center;
+}

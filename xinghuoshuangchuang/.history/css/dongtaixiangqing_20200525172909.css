@@ -1,0 +1,15 @@
+main {
+    width: 60%;
+    height: 500px;
+    background-color: wheat;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+main h3 {
+    text-align: center;
+}
+main span p{
+    /* width: 60%; */
+    margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+main {
+    width: 60%;
+    height: 500px;
+    background-color: wheat;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+main h3 {
+    text-align: center;
+}
+main span {
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent; /*清除点击默认高亮效果*/
+    -webkit-box-sizing: border-box; /*以你的border开始计算你的宽度*/
+}
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei","sans-serif";
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: '.';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}

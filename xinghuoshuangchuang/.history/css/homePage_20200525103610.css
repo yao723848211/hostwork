@@ -1,0 +1,8 @@
+.jd_layout {
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    height: 2000px;
+    /* border: 1px solid red; */
+}

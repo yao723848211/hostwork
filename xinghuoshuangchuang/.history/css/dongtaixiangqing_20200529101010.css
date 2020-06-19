@@ -1,0 +1,45 @@
+.tianliang_layout {
+    /* max-width: 100%; */
+    /* min-width: 1800px; */
+    width: 100%;
+    /* min-width: 1200px; */
+    margin: 0 auto;
+    position: relative;
+    height:auto;
+    /* border: 1px solid red; */
+}
+main {
+    width: 60%;
+    height: 500px;
+    /* background-color: wheat; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 80px;
+    color: #515a6e;
+}
+main h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+main .box1 {
+    width: 90%;
+    margin: 10px auto;
+    height: 36px;
+    line-height: 36px;
+    color: #91878a;
+    text-align: center;
+    font-size: 14px;
+}
+main p {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 120px;
+    font-family: SourceHanSansSC-regular;
+}

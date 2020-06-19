@@ -1,0 +1,7 @@
+main {
+    width: 60%;
+    height: 500px;
+    background-color: wheat;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

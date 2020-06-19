@@ -1,0 +1,11 @@
+*{
+    margin: 0em;
+}
+.tianliang_layout {
+    max-width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 2000px;
+    border: 1px solid red;
+}
